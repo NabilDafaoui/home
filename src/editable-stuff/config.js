@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "Je m'appelle Mohammed NAbil DAfaoui. Je suis étudiant en Master 1 en génie logiciel à l'Université des Sciences de Montpellier, je recherche activement une alternance ou un stage pour mettre en pratique mes compétences en développement logiciel, architecture logicielle et bases de données. Je suis convaincu que cette expérience m'apportera les connaissances nécessaires pour réaliser mes objectifs professionnels.",
- resume: require("../editable-stuff/resume.pdf"),
+ CV: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -122,7 +122,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "Je suis actuellement à la recherche d'une alternance en génie logiciel ou en apprentissage automatique à temps plein ! Si vous connaissez des postes disponibles, si vous avez des questions, ou si vous voulez simplement dire bonjour, n'hésitez pas à m'envoyer un email à",
+    "Je suis actuellement à la recherche d'une alternance en génie logiciel à temps plein ! Si vous connaissez des postes disponibles, si vous avez des questions, ou si vous voulez simplement dire bonjour, n'hésitez pas à m'envoyer un email à",
   email: "daafaouinabil4@gmail.com",
 };
 
