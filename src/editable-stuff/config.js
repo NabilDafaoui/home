@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Dafaoui",
   middleName: "",
   lastName: "Mohammed Nabil",
-  message: " Passionate about changing the world with technology. ",
+  message: " Passionate about changing the world with technology.",
   icons: [
     {
       image: "fa-github",
@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "Je m'appelle Mohammed NAbil DAfaoui. Je suis étudiant en Master 1 en génie logiciel à l'Université des Sciences de Montpellier, je recherche activement une alternance ou un stage pour mettre en pratique mes compétences en développement logiciel, architecture logicielle et bases de données. Je suis convaincu que cette expérience m'apportera les connaissances nécessaires pour réaliser mes objectifs professionnels.",
- CV: require("../editable-stuff/resume.pdf"),
+ resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
