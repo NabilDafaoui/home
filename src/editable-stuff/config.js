@@ -41,7 +41,7 @@ const mainBody = {
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
+// resume: require("../editable-stuff/resume.pdf"),
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "Je m'appelle Mohammed NAbil DAfaoui. Je suis étudiant en Master 1 en génie logiciel à l'Université des Sciences de Montpellier, je recherche activement une alternance ou un stage pour mettre en pratique mes compétences en développement logiciel, architecture logicielle et bases de données. Je suis convaincu que cette expérience m'apportera les connaissances nécessaires pour réaliser mes objectifs professionnels.",
- 
+ resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -122,8 +122,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Je suis actuellement à la recherche d'une alternance en génie logiciel ou en apprentissage automatique à temps plein ! Si vous connaissez des postes disponibles, si vous avez des questions, ou si vous voulez simplement dire bonjour, n'hésitez pas à m'envoyer un email à",
+  email: "daafaouinabil4@gmail.com",
 };
 
 const experiences = {
