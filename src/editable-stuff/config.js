@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/monlogo.png"),
   imageSize: 375,
   message:
-    "Je m'appelle Mohammed NAbil DAfaoui. Je suis étudiant en Master 1 en génie logiciel à l'Université des Sciences de Montpellier, je recherche activement une alternance ou un stage pour mettre en pratique mes compétences en développement logiciel, architecture logicielle et bases de données. Je suis convaincu que cette expérience m'apportera les connaissances nécessaires pour réaliser mes objectifs professionnels.",
+    "👨‍💻 Étudiant en Génie Logiciel, détenteur d'une Licence en Informatique. À la recherche de stages ou alternance pour appliquer mes compétences en développement logiciel dans des projets innovants.🚀Prêt à relever de nouveaux défis et à apporter une valeur ajoutée à toute équipe de développement logiciel axée sur l'excellence technique et l'innovation.",
  resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -98,22 +98,31 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
+    { name: "Architecture M.E.A.N", value: 85 },
     { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "JavaScript", value: 80 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "HTML/CSS", value: 90 },
+    { name: "JAVA", value: 80 },
+    { name: "PHP SYMFONY" , value: 70},
+    { name: "Programmation mobile" , value: 85 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Orientation vers les objectifs", value: 85 },
+    { name: "Collaboration", value: 80 },
+    { name: "Positivité", value: 75 },
+    { name: "Adaptabilité", value: 90 },
+    { name: "Résolution de problèmes", value: 85 },
+    { name: "Autonomie", value: 75 },
+    { name: "Organisation", value: 85 },
+    { name: "Créativité technologique", value: 80 },
+    { name: "Esprit critique", value: 85 },
+    { name: "Curiosité intellectuelle", value: 90 },
+    { name: "Communication efficace", value: 85 },
+    { name: "Esprit d'équipe", value: 80 },
+    { name: "Gestion du temps", value: 80 },
+    { name: "Leadership", value: 75 },
+    { name: "Résilience", value: 85 },
   ],
 };
 
@@ -131,14 +140,9 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
+      role: 'Génie logiciel',
       companylogo: require('../assets/img/logoUM.png'),
-      date: 'May 2017 – May 2018',
+      date: '2023 – Present',
     },
   ]
 }
